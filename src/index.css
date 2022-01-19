@@ -27,3 +27,8 @@ code {
   font-family: 'Bebas Neue', cursive;
   font-size: 36px;
 }
+
+.header-content {
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+}

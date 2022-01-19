@@ -5,7 +5,7 @@ const Header = (props) => {
     return (
         <Container variant="dark" className="header-container">
             <Alert.Heading className="heading">{props.heading}</Alert.Heading>
-            <p>
+            <p className="header-content">
                 {props.content}
             </p>
         </Container>

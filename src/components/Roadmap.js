@@ -8,7 +8,7 @@ const RoadmapItem = (props) => {
         <>
             <Alert variant={props.border} bg="dark" text="white">
                 <Row>
-                    <Col md={2} lg={2} className="perecent-box my-auto">
+                    <Col md={2} lg={2} className="my-auto percent-box">
                         <h1 className="percent heading">
                             {props.n}
                         </h1>
