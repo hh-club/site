@@ -5,7 +5,7 @@ const Bg = () => {
     return (
         <>
             <Container>
-                <Image variant="top" style={{ minHeight: '90vh' }} src="holder.js/100px180" />
+                <Image variant="top" style={{ minHeight: '90vh' }} src="holder.js/100px180?theme=industrial" />
             </Container>
         </>
     )

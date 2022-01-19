@@ -1,5 +1,3 @@
-import './App.css';
-
 import Bg from './components/Bg';
 import NavBar from './components/NavBar';
 import Welcome from './components/Welcome';

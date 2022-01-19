@@ -13,6 +13,16 @@ code {
     monospace;
 }
 
+.section-container {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+.header-container {
+  color: white;
+  padding: 0;
+}
+
 .heading {
   font-family: 'Bebas Neue', cursive;
   font-size: 36px;

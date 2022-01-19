@@ -1,30 +1,32 @@
 import React from 'react';
-import { Container, Row, Col, Alert, Image } from 'react-bootstrap';
+import './Welcome.css';
+import { Container, Row, Col, Image } from 'react-bootstrap';
+
+import Header from './Header';
 
 const Welcome = () => {
     return (
-        <Container id="About" style={{ paddingTop: "12vh" }}>
+        <Container id="About" className="section-container">
             <Row>
                 <Col xs={12} md={8}>
-                    <Container variant="dark" style={{ minHeight: "60%", color: "white", padding: 0 }}>
-                        <Alert.Heading className="heading">Welcome to the Hungover Hedgehogs Club</Alert.Heading>
-                        <p>
-                            Aww yeah, you successfully read this important alert message. This example
-                            text is going to run a bit longer so that you can see how spacing within an
-                            alert works with this kind of content. Aww yeah, you successfully read this important alert message. This example
-                            text is going to run a bit longer so that you can see how spacing within an
-                            alert works with this kind of content.
-                        </p>
-                    </Container>
+                    <Header heading="Welcome to the Hungover Hedgehogs Club"
+                        content="
+                        5555 Hedgehogs have been forced to migrate down into an elusive underground society,
+                        where they spend most of their days partying away in a withered and scrappy nightclub. 
+                        Never sober, and always doing something stupid, 
+                        all Hungover Hedgehogs are unique and better not pick a fight with them or you might 
+                        find yourself with a thorn in your back. 
+                        "
+                    />
                 </Col>
                 <Col xs={6} md={4}>
                     <Row>
-                        <Col><Image style={{ paddingBottom: '12px' }} variant="top" src="holder.js/100px180" /></Col>
-                        <Col><Image style={{ paddingBottom: '12px' }} variant="top" src="holder.js/100px180" /></Col>
+                        <Col><Image className="top-row-img" src="holder.js/100px180?theme=industrial" /></Col>
+                        <Col><Image className="top-row-img" src="holder.js/100px180?theme=industrial" /></Col>
                     </Row>
                     <Row>
-                        <Col><Image style={{ paddingTop: '12px' }} variant="top" src="holder.js/100px180" /></Col>
-                        <Col><Image style={{ paddingTop: '12px' }} variant="top" src="holder.js/100px180" /></Col>
+                        <Col><Image className="bottom-row-img" src="holder.js/100px180?theme=industrial" /></Col>
+                        <Col><Image className="bottom-row-img" src="holder.js/100px180?theme=industrial" /></Col>
                     </Row>
                 </Col>
             </Row>
