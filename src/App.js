@@ -5,6 +5,7 @@ import Team from './components/Team';
 import Roadmap from './components/Roadmap';
 import Info from './components/Info';
 import Specs from './components/Specs';
+import FAQ from './components/FAQ';
 // import Footer from './components/Footer';
 
 
@@ -18,6 +19,7 @@ function App() {
       <Info />
       <Roadmap />
       <Team />
+      <FAQ />
       <NavBar />
     </>
   );

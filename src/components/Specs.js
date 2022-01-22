@@ -19,7 +19,7 @@ const Specs = () => {
                         Each Hungover Hedgehog is completely unique and programmatically generated from over
                         200 possible attributes, including clothing, headwear and more. All Hedgehogs are
                         cool, but some are rarer than others.
-
+            
                         The hedgehogs are stored as tokens on the Ethereum blockchain and are hosted on IPFS.
                         Purchasing a Hedgehog in the pre-sale costs 0.06 ETH and 0.08 ETH in the public sale.
                         "

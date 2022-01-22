@@ -1,0 +1,23 @@
+
+
+.faq-q {
+    background-color: transparent;
+}
+
+Button {
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+    background-color: #000;
+}
+
+.faq-body {
+    color: white;
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+    background-color: transparent;
+}
+
+.faq-questions {
+    background-color: transparent;
+}
+
