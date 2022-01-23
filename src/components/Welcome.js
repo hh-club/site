@@ -8,10 +8,10 @@ const Welcome = () => {
     return (
         <>
             <hr style={{
-                color: '#000000',
-                backgroundColor: '#000000',
-                height: .5,
-                borderColor: '#000000'
+                color: '#7eed34',
+                backgroundColor: '#7eed34',
+                height: 1,
+                borderColor: '#7eed34'
             }} />
             <Container id="About" className="section-container">
                 <Row>

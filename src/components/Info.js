@@ -1,18 +1,20 @@
 import React from 'react';
-import { Container, Card, Row, Col } from 'react-bootstrap';
+import { Container, Card, CardGroup, Row, Col } from 'react-bootstrap';
 import Header from './Header';
 
 const InfoItem = (props) => {
     return (
-        <Col align="center">
-            <Card border={props.border} bg="dark" text="white">
-                <Card.Body>
-                    <Card.Text>
-                        {props.content}
-                    </Card.Text>
-                    <Card.Img variant="bottom" src={props.src} />
-                </Card.Body>
-            </Card>
+        <Col>
+            <div style={{ borderColor: "#7eed34", borderStyle: "solid", borderWidth: "1px", borderRadius: "5px", minHeight: '100%' }}>
+                <Card bg="dark" style={{ minHeight: '100%' }} text="white">
+                    <Card.Body>
+                        <Card.Img style={{ marginBottom: "1vh" }} variant="bottom" src={props.src} />
+                        <Card.Text align="center">
+                            {props.content}
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </div>
         </Col>
     )
 }
@@ -21,41 +23,41 @@ const Info = () => {
     return (
         <>
             <hr style={{
-                color: '#000000',
-                backgroundColor: '#000000',
-                height: .5,
-                borderColor: '#000000'
+                color: '#7eed34',
+                backgroundColor: '#7eed34',
+                height: 1,
+                borderColor: '#7eed34'
             }} />
             <Container id="Info" className="section-container">
                 <Header
                     heading="Club Info"
-                    content="Aww yeah, you successfully read this important alert message. This example
-                text is going to run a bit longer so that you can see how spacing within an
-                alert works with this kind of content. Aww yeah, you successfully read this important alert message. This example
-                text is going to run a bit longer so that you can see how spacing within an
-                alert works with this kind of content."
+                    content="By holding a Hungover Hedgehog, you’re not just buying an 
+                    insanely awesome PFP to flex to your friends. No, with your Hedgehog 
+                    you gain access to an exclusive club which provides TONS of benefits and utilities. 
+                    Your Hungover Hedgehog can act as your digital identity, and open countless opportunities. 
+                    Here's some of our crazy utilities that you will receive just by holding a Hungover Hedgehog:"
                 />
                 <Row>
                     <InfoItem border="warning" src="holder.js/100px180?theme=industrial"
-                        content="5,555 unique Hungover Hedgehog Club tokens"
+                        content="Over $40,000 in prizes for WANTED Hedgehogs"
                     />
                     <InfoItem border="danger" src="holder.js/100px180?theme=industrial"
-                        content="Launching with both a pre-sale and public sale"
+                        content="$THORN utility token"
                     />
                     <InfoItem border="info" src="holder.js/100px180?theme=industrial"
-                        content="Ownership given to the consumer over their NFT"
+                        content="Free HHC Merchandise"
                     />
                 </Row>
                 <br />
                 <Row>
                     <InfoItem border="primary" src="holder.js/100px180?theme=industrial"
-                        content="Some quick example text. Some quick example text"
+                        content="Exclusive Mint Access to future Hungover Projects"
                     />
                     <InfoItem border="success" src="holder.js/100px180?theme=industrial"
-                        content="Some quick example text. Some quick example text"
+                        content="Holder only invites to Luxury Bars & Events across the world"
                     />
                     <InfoItem border="light" src="holder.js/100px180?theme=industrial"
-                        content="Some quick example text. Some quick example text"
+                        content="Access to Metaverse HHC Land & Future Games"
                     />
                 </Row>
             </Container >

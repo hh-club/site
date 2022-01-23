@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Image } from 'react-bootstrap';
+import { Image, Container } from 'react-bootstrap';
 
 const Bg = () => {
     return (

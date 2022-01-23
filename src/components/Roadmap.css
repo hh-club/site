@@ -1,11 +1,8 @@
-.roadmap-img {
-    min-height: 100%;
-}
-
 .percent {
     font-size: 64px;
     text-align: center;
     justify-content: center;
+    color: #7eed34;
 }
 
 .percent-box {

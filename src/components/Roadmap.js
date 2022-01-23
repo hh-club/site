@@ -6,25 +6,27 @@ import Header from './Header';
 const RoadmapItem = (props) => {
     return (
         <>
-            <Alert variant={props.border} bg="dark" text="white">
-                <Row>
-                    <Col md={2} lg={2} className="my-auto percent-box">
-                        <h1 className="percent heading">
-                            {props.n}
-                        </h1>
-                    </Col>
-                    <Col>
-                        <ListGroup>
-                            {props.item_1 && <ListGroup.Item variant="dark"><Badge bg="secondary">1</Badge>{' '}{props.item_1}</ListGroup.Item>}
-                            {props.item_2 && <ListGroup.Item variant="dark"><Badge bg="secondary">2</Badge>{' '}{props.item_2}</ListGroup.Item>}
-                            {props.item_3 && <ListGroup.Item variant="dark"><Badge bg="secondary">3</Badge>{' '}{props.item_3}</ListGroup.Item>}
-                            {props.item_4 && <ListGroup.Item variant="dark"><Badge bg="secondary">4</Badge>{' '}{props.item_4}</ListGroup.Item>}
-                            {props.item_5 && <ListGroup.Item variant="dark"><Badge bg="secondary">5</Badge>{' '}{props.item_5}</ListGroup.Item>}
-                            {props.item_6 && <ListGroup.Item variant="dark"><Badge bg="secondary">6</Badge>{' '}{props.item_6}</ListGroup.Item>}
-                        </ListGroup>
-                    </Col>
-                </Row>
-            </Alert>
+            <div style={{ borderColor: "#7eed34", borderStyle: "solid", borderWidth: "1px", borderRadius: "5px" }}>
+                <Alert variant="none" style={{ marginBottom: 0 }} text="white">
+                    <Row>
+                        <Col md={2} lg={2} className="my-auto percent-box">
+                            <h1 className="percent heading">
+                                {props.n}
+                            </h1>
+                        </Col>
+                        <Col>
+                            <ListGroup>
+                                {props.item_1 && <ListGroup.Item variant="dark"><Badge bg="secondary">1</Badge>{' '}{props.item_1}</ListGroup.Item>}
+                                {props.item_2 && <ListGroup.Item variant="dark"><Badge bg="secondary">2</Badge>{' '}{props.item_2}</ListGroup.Item>}
+                                {props.item_3 && <ListGroup.Item variant="dark"><Badge bg="secondary">3</Badge>{' '}{props.item_3}</ListGroup.Item>}
+                                {props.item_4 && <ListGroup.Item variant="dark"><Badge bg="secondary">4</Badge>{' '}{props.item_4}</ListGroup.Item>}
+                                {props.item_5 && <ListGroup.Item variant="dark"><Badge bg="secondary">5</Badge>{' '}{props.item_5}</ListGroup.Item>}
+                                {props.item_6 && <ListGroup.Item variant="dark"><Badge bg="secondary">6</Badge>{' '}{props.item_6}</ListGroup.Item>}
+                            </ListGroup>
+                        </Col>
+                    </Row>
+                </Alert>
+            </div>
             <br />
         </>
     )
@@ -34,10 +36,10 @@ const Roadmap = () => {
     return (
         <>
             <hr style={{
-                color: '#000000',
-                backgroundColor: '#000000',
-                height: .5,
-                borderColor: '#000000'
+                color: '#7eed34',
+                backgroundColor: '#7eed34',
+                height: 1,
+                borderColor: '#7eed34'
             }} />
             <Container id="Roadmap" className="section-container">
                 <Header
