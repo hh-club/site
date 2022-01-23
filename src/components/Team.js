@@ -2,15 +2,23 @@ import React from 'react';
 import { Container, Card, Row, Col } from 'react-bootstrap';
 import Header from './Header';
 
+import leaf from '../images/team_icons/leaf.png';
+import haze from '../images/team_icons/haze.png';
+import saucey from '../images/team_icons/saucey.png';
+import lynx from '../images/team_icons/lynx.png';
+import zio from '../images/team_icons/zio.png';
+import thena from '../images/team_icons/thena.png';
+
 const TeamMember = (props) => {
     return (
         <Col>
-            <div style={{ borderColor: "#7eed34", borderStyle: "solid", borderWidth: "1px", borderRadius: "5px" }}>
+            <div>
                 <Card bg="dark" text="white" style={{ height: "100%" }}>
                     <Card.Body>
                         <Card.Title>{props.name}</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">{props.role}</Card.Subtitle>
-                        <Card.Img variant="bottom" src={props.src} />
+                        <br />
+                        <Card.Img style={{ padding: "3px", borderRadius: "100%", borderColor: "#7eed34", borderStyle: "solid", borderWidth: "2px" }} variant="bottom" src={props.src} />
                     </Card.Body>
                 </Card>
             </div>
@@ -37,21 +45,21 @@ const Team = () => {
                         border="warning"
                         name="Haze"
                         role="Marketing Genius and Project Lead"
-                        src="holder.js/100px180?theme=industrial"
+                        src={haze}
                         description="Bossing me around and some other stuff I hope"
                     />
                     <TeamMember
                         border="danger"
                         name="Saucey"
                         role="The Picasso of Vector Art"
-                        src="holder.js/100px180?theme=industrial"
+                        src={saucey}
                         description="Create NFT Layers, Graphics for Websites and Socials and Logo's"
                     />
                     <TeamMember
                         border="info"
-                        name="Chips"
+                        name="Lynx"
                         role="Social Media Manager Extraordinaire"
-                        src="holder.js/100px180?theme=industrial"
+                        src={lynx}
                         description="Manages Twitter, Instagram and Discord"
                     />
                 </Row>
@@ -61,21 +69,21 @@ const Team = () => {
                         border="primary"
                         name="Zio"
                         role="Discord manager and moderator"
-                        src="holder.js/100px180?theme=industrial"
+                        src={zio}
                         description="Community manager and original discord moderator"
                     />
                     <TeamMember
                         border="success"
                         name="Leaf"
                         role="Programmer and Keyboard Presser"
-                        src="holder.js/100px180?theme=industrial"
+                        src={leaf}
                         description="Website, Minting DAPP, Smart Contract and NFT Generation"
                     />
                     <TeamMember
                         border="light"
                         name="Thena"
                         role="Moral Support for Leaf"
-                        src="holder.js/100px180?theme=industrial"
+                        src={thena}
                         description="Cat"
                     />
                 </Row>

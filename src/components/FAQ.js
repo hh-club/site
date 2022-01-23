@@ -38,12 +38,12 @@ const FAQ = () => {
                         <FAQItem
                             n="1"
                             question="Pre-Sale Mint Cost?"
-                            answer="0.06 Ξ"
+                            answer="0.05 Ξ"
                         />
                         <FAQItem
                             n="2"
                             question="Public Mint Cost?"
-                            answer="0.08 Ξ"
+                            answer="0.07 Ξ"
                         />
                         <FAQItem
                             n="3"
