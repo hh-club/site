@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Card, Row, Col } from 'react-bootstrap';
 import Header from './Header';
+import HR from './Divider';
 
 import leaf from '../images/team_icons/leaf.png';
 import haze from '../images/team_icons/haze.png';
@@ -18,7 +19,7 @@ const TeamMember = (props) => {
                         <Card.Title>{props.name}</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">{props.role}</Card.Subtitle>
                         <br />
-                        <Card.Img style={{ padding: "3px", borderRadius: "100%", borderColor: "#7eed34", borderStyle: "solid", borderWidth: "2px" }} variant="bottom" src={props.src} />
+                        <Card.Img style={{ padding: "3px", borderRadius: "100%", borderColor: "var(--accent)", borderStyle: "solid", borderWidth: "2px" }} variant="bottom" src={props.src} />
                     </Card.Body>
                 </Card>
             </div>
@@ -29,16 +30,11 @@ const TeamMember = (props) => {
 const Team = () => {
     return (
         <>
-            <hr style={{
-                color: '#7eed34',
-                backgroundColor: '#7eed34',
-                height: 1,
-                borderColor: '#7eed34'
-            }} />
+            <HR />
             <Container id="Team" className="section-container">
                 <Header
                     heading="The Team"
-                    content="HHC was created by five friends who set out to make some cool hedgehogs, see what we could do and try to make something fun."
+                    content={["HHC was created by five friends who set out to make some cool hedgehogs, see what we could do and try to make something fun."]}
                 />
                 <Row>
                     <TeamMember

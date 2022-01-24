@@ -2,11 +2,12 @@ import React from 'react';
 import './Roadmap.css'
 import { Container, Row, Col, Alert, ListGroup, Badge } from 'react-bootstrap';
 import Header from './Header';
+import HR from './Divider';
 
 const RoadmapItem = (props) => {
     return (
         <>
-            <div style={{ borderColor: "#7eed34", borderStyle: "solid", borderWidth: "1px", borderRadius: "5px" }}>
+            <div style={{ borderColor: "var(--accent)", borderStyle: "solid", borderWidth: "1px", borderRadius: "5px" }}>
                 <Alert variant="none" style={{ marginBottom: 0 }} text="white">
                     <Row>
                         <Col md={2} lg={2} className="my-auto percent-box">
@@ -35,16 +36,11 @@ const RoadmapItem = (props) => {
 const Roadmap = () => {
     return (
         <>
-            <hr style={{
-                color: '#7eed34',
-                backgroundColor: '#7eed34',
-                height: 1,
-                borderColor: '#7eed34'
-            }} />
+            <HR />
             <Container id="Roadmap" className="section-container">
                 <Header
                     heading="The Roadmap"
-                    content=""
+                    content={[""]}
                 />
 
                 <RoadmapItem

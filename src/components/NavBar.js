@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavBar.css'
 import { Navbar, Container, Nav, Image } from 'react-bootstrap';
-import hhc_logo_1 from '../images/hhctest.png';
+import hhc_logo_1 from '../images/hhctest3.png';
 // import hhc_logo_2 from '../images/hhctest2.png';
 
 const NavBar = () => {
