@@ -19,8 +19,8 @@ const NavBar = () => {
                         <Nav.Link style={{ paddingRight: "1.5vw" }} href="#About">about</Nav.Link>
                         <Nav.Link style={{ paddingRight: "1.5vw" }} href="#Roadmap">roadmap</Nav.Link>
                         <Nav.Link style={{ paddingRight: "1.5vw" }} href="#Team">team</Nav.Link>
-                        <Nav.Link style={{ paddingRight: "1.5vw" }} href="#">mint</Nav.Link>
-                        <strong><Nav.Link href="#">discord</Nav.Link></strong>
+                        <Nav.Link style={{ paddingRight: "1.5vw" }} href="#" disabled>mint</Nav.Link>
+                        <strong><Nav.Link href="https://www.discord.gg/Xcscqsh7cD">discord</Nav.Link></strong>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
