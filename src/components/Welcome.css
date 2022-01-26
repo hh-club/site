@@ -1,8 +1,13 @@
 .top-row-img {
-    padding-bottom: 12px;
+    margin-bottom: 12px;
+    
 }
 
 .bottom-row-img {
-    padding-top: 12px;
+    margin-top: 12px;
 }
 
+.top-row-img, .bottom-row-img {
+    max-width: 100%;
+    border-radius: 8%;
+}

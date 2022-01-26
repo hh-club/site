@@ -6,7 +6,7 @@ const Bg = () => {
     return (
         <>
             <Container>
-                <Image variant="top" style={{ maxWidth: "100%", marginBottom: "12vh" }} src={bg_1} />
+                <Image variant="top" style={{ maxWidth: "100%", minHeight: "100%", marginBottom: "12vh" }} src={bg_1} />
             </Container>
         </>
     )

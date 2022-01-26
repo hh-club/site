@@ -1,6 +1,6 @@
 :root {
-  --accent: #7eed34;
-  --bg: #212529;
+  --accent: #198754;
+  --bg: #000;
 }
 
 body {
@@ -31,8 +31,31 @@ code {
 }
 
 .heading {
-  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-style:italic;
+  font-size: 50px;
+  color: var(--accent);
+  /* background: -webkit-linear-gradient(to right, #7EED34 0%, #870D0D 100%);
+  background: -moz-linear-gradient(to right, #7EED34 0%, #870D0D 100%);
+  background: linear-gradient(to right, #7EED34 0%, #870D0D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+
+.heading-2 {
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
   font-size: 45px;
+  /* background: -webkit-linear-gradient(to right, #7EED34 20%, #870D0D 100%);
+  background: -moz-linear-gradient(to right, #7EED34 20%, #870D0D 100%);
+  background: linear-gradient(to right, #7EED34 20%, #870D0D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .header-content {
@@ -56,10 +79,10 @@ code {
 ::-webkit-scrollbar-thumb:vertical {
   /* This is the EXACT color of Mac OS scrollbars. 
      Yes, I pulled out digital color meter */
-  background: rgba(0,0,0,0.5);
+  background: var(--accent);
   -webkit-border-radius: 100px;
 }
 ::-webkit-scrollbar-thumb:vertical:active {
-  background: rgba(0,0,0,0.61); /* Some darker color when you click it */
+  background: var(--accent); /* Some darker color when you click it */
   -webkit-border-radius: 100px;
 }
