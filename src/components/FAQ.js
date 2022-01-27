@@ -6,14 +6,28 @@ import './FAQ.css';
 
 const FAQItem = (props) => {
     return (
-        <Accordion.Item className="faq-q" eventKey={props.n}>
-            <Accordion.Header className="faq-heading"><strong>{props.question}</strong></Accordion.Header>
-            <Accordion.Body className="faq-body">
-                <div>{
-                    props.answer.map(line => (<p>{line}</p>))
-                }</div>
-            </Accordion.Body>
-        </Accordion.Item>
+        // <Accordion.Item  eventKey={props.n}>
+        //     <Accordion.Header className="faq-heading"><strong>{props.question}</strong></Accordion.Header>
+        //     
+        //         <div>{
+        //             props.answer.map(line => (<p>{line}</p>))
+        //         }</div>
+        //     </Accordion.Body>
+        // </Accordion.Item>
+        <>
+
+            <Accordion.Item className="faq-q" eventKey={props.n}>
+
+                <Accordion.Header className="heading-2" style={{ color: "var(--bg)" }}>{props.question}</Accordion.Header>
+                <Accordion.Body className="faq-body">
+                    <div>{
+                        props.answer.map(line => (<p>{line}</p>))
+                    }</div>
+                </Accordion.Body>
+
+            </Accordion.Item>
+
+        </>
     )
 }
 
@@ -23,8 +37,8 @@ const FAQ = () => {
             <HR />
             <Container id="FAQ" className="section-container">
                 <Header heading="Frequently Asked Questions" content={[""]} />
-                <div style={{ borderColor: "var(--accent)", borderStyle: "solid", borderWidth: "1px", borderRadius: "5px", padding: "10px" }}>
-                    <Accordion className="faq-questions">
+                <Accordion className="faq-questions">
+                    <div className="faq-container">
                         <FAQItem
                             n="0"
                             question="What is the Hungover Hedgehogs Club?"
@@ -62,8 +76,8 @@ const FAQ = () => {
                             question="How many whitelist spots are there?"
                             answer={["There will be a total of 755 Whitelist spots available to our community, check whitelist-info to find out how to get Whitelisted."]}
                         />
-                    </Accordion>
-                </div>
+                    </div>
+                </Accordion>
             </Container>
         </>
     )

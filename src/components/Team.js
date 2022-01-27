@@ -3,7 +3,7 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 import Header from './Header';
 import HR from './Divider';
 
-import leaf from '../images/team_icons/leaf.png';
+import leaf from '../images/welcome_icons/1.png';
 import haze from '../images/team_icons/haze.png';
 import saucey from '../images/team_icons/saucey.png';
 import lynx from '../images/team_icons/lynx.png';

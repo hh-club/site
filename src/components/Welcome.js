@@ -22,7 +22,7 @@ const Welcome = () => {
                                 "HHC's $THORN token is also set to launch soon after mint, holders will be able to purchase HHC merchandise as well as purchase whitelist passes for future Hungover projects and more.",
                                 "The discord server launched yesterday and their whitelist has just opened up with 100/755 WL spots already taken in the first 2 hours! DONT MISS OUT ON THIS OPPORTUNITY!!"]}
                         />
-                        <Col align="center"><Button href="https://www.discord.gg/Xcscqsh7cD" variant="outline-success">Discord</Button></Col>
+                        <Button href="https://www.discord.gg/Xcscqsh7cD" variant="outline-success" style={{ borderWidth: "2px" }}><strong>DISCORD</strong></Button>
                     </Col>
                     <Col xs={6} md={4}>
                         <Row>

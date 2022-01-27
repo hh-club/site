@@ -21,8 +21,8 @@ code {
 }
 
 .section-container {
-  padding-top: 12vh;
-  padding-bottom: 12vh;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
 }
 
 .header-container {
@@ -31,17 +31,18 @@ code {
 }
 
 .heading {
-  /* font-family: 'Bebas Neue', cursive; */
   font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
+  text-transform: uppercase;  
   font-style:italic;
   font-size: 50px;
   color: var(--accent);
-  /* background: -webkit-linear-gradient(to right, #7EED34 0%, #870D0D 100%);
-  background: -moz-linear-gradient(to right, #7EED34 0%, #870D0D 100%);
-  background: linear-gradient(to right, #7EED34 0%, #870D0D 100%);
+  background: #198754;
+  background: -webkit-linear-gradient(to right, #198754 20%, #C1CF63 100%);
+  background: -moz-linear-gradient(to right, #198754 20%, #C1CF63 100%);
+  background: linear-gradient(to right, #198754 20%, #C1CF63 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -69,6 +70,7 @@ code {
   /* This is more usable for users trying to click it. */
   background-color: rgba(0,0,0,0);
   -webkit-border-radius: 100px;
+  border-radius: 100px;
 }
 /* hover effect for both scrollbar area, and scrollbar 'thumb' */
 ::-webkit-scrollbar:hover {
@@ -81,8 +83,10 @@ code {
      Yes, I pulled out digital color meter */
   background: var(--accent);
   -webkit-border-radius: 100px;
+  border-radius: 100px;
 }
 ::-webkit-scrollbar-thumb:vertical:active {
   background: var(--accent); /* Some darker color when you click it */
   -webkit-border-radius: 100px;
+  border-radius: 100px;
 }
