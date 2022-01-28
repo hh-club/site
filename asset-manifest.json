@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.721704b3.css",
-    "main.js": "/static/js/main.448989b0.js",
+    "main.js": "/static/js/main.809f81e1.js",
     "static/js/787.41b8b0ee.chunk.js": "/static/js/787.41b8b0ee.chunk.js",
     "static/media/sewer_concept.png": "/static/media/sewer_concept.a6dd55c33ceb13e58634.png",
     "static/media/hedgehogs.gif": "/static/media/hedgehogs.ffdd313cbbd5d11a5668.gif",
@@ -25,11 +25,11 @@
     "static/media/instagram-line.png": "/static/media/instagram-line.c2e6fed6a90dd4078619.png",
     "index.html": "/index.html",
     "main.721704b3.css.map": "/static/css/main.721704b3.css.map",
-    "main.448989b0.js.map": "/static/js/main.448989b0.js.map",
+    "main.809f81e1.js.map": "/static/js/main.809f81e1.js.map",
     "787.41b8b0ee.chunk.js.map": "/static/js/787.41b8b0ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.721704b3.css",
-    "static/js/main.448989b0.js"
+    "static/js/main.809f81e1.js"
   ]
 }
