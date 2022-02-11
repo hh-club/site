@@ -26,7 +26,7 @@ const NavBar = () => {
                         <Nav.Link style={{ paddingRight: "1.5vw", color: "white" }} href="#Team">team</Nav.Link>
                         <Nav.Link style={{ paddingRight: "1.5vw" }} href="#" disabled>mint</Nav.Link>
 
-                        <Nav.Link style={{ color: "white" }} href="https://www.discord.gg/Xcscqsh7cD">
+                        <Nav.Link href="https://www.discord.gg/Xcscqsh7cD" target="_blank" rel="noopener noreferrer">
                             <img
                                 src={discord}
                                 width="24"
@@ -35,7 +35,7 @@ const NavBar = () => {
                                 alt="Discord Link"
                             />
                         </Nav.Link>
-                        <Nav.Link style={{ color: "white" }} href="https://www.instagram.com/hungoverhedgehogclub/">
+                        <Nav.Link href="https://www.instagram.com/hungoverhedgehogclub/" target="_blank" rel="noopener noreferrer">
                             <img
                                 src={instagram}
                                 width="24"
@@ -44,7 +44,7 @@ const NavBar = () => {
                                 alt="Instagram Link"
                             />
                         </Nav.Link>
-                        <Nav.Link style={{ color: "white" }} href="https://twitter.com/HHClubNFT">
+                        <Nav.Link href="https://twitter.com/HHClubNFT" target="_blank" rel="noopener noreferrer">
                             <img
                                 src={twitter}
                                 width="24"

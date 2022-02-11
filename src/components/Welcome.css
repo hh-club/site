@@ -7,7 +7,17 @@
     margin-top: 12px;
 }
 
-.top-row-img, .bottom-row-img {
+.top-row-img, .bottom-row-img, .econ-img {
     max-width: 100%;
     border-radius: 8%;
+}
+
+.disc-btn {
+    background-color: #5865F2;
+    border-color: #5865F2;
+    border-radius: 12px;
+}
+.disc-btn:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
 }

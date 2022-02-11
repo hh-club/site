@@ -41,16 +41,16 @@ const Specs = () => {
                         <Layers />
                         <br />
                         <Header
-                            content={["The hedgehogs are stored as tokens on the Ethereum blockchain and are hosted on IPFS. Purchasing a Hedgehog costs:"]}
+                            content={["The hedgehogs are stored as tokens on the Ethereum blockchain and are hosted on IPFS."]}
                         />
-                        <Row>
+                        {/* <Row>
                             <Col xs={4}>
                                 <ListGroup.Item style={{ backgroundColor: "#000", color: "white" }} variant="dark"><h6><Badge bg="success" text="black">0.05Ξ</Badge>{' '}for the pre-sale</h6></ListGroup.Item>
                             </Col>
                             <Col>
                                 <ListGroup.Item style={{ backgroundColor: "#000", color: "white" }} variant="dark"><h6><Badge bg="success" text="black">0.07Ξ</Badge>{' '}for the public sale</h6></ListGroup.Item>
                             </Col>
-                        </Row>
+                        </Row> */}
                     </Col>
                     <Col xs={6} md={4}>
                         <Image style={{ maxWidth: "100%", borderRadius: "3%" }} src={hedgehogs} />

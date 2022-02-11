@@ -6,8 +6,9 @@ import Roadmap from './components/Roadmap';
 import Info from './components/Info';
 import Specs from './components/Specs';
 import FAQ from './components/FAQ';
-// import Footer from './components/Footer';
-
+import Footer from './components/Footer';
+import Booth from './components/Booth';
+import Economy from './components/Economy';
 
 
 function App() {
@@ -18,10 +19,12 @@ function App() {
       <Welcome />
       <Specs />
       <Info />
+      <Economy />
+      <Booth />
       <Roadmap />
       <Team />
       <FAQ />
-      <NavBar />
+      <Footer />
     </>
   );
 }

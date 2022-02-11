@@ -7,9 +7,15 @@ const Header = (props) => {
     return (
         <Container className="header-container">
             <Alert.Heading className="heading">{props.heading}</Alert.Heading>
-            <div>{
-                props.content.map(line => (<p>{line}</p>))
-            }</div>
+            {
+                props.content.map(line =>
+
+                    <p key={props.content.indexOf(line)}>
+                        {line}
+                    </p>
+
+                )
+            }
         </Container>
     )
 }

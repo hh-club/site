@@ -20,9 +20,15 @@ const FAQItem = (props) => {
 
                 <Accordion.Header className="heading-2" style={{ color: "var(--bg)" }}>{props.question}</Accordion.Header>
                 <Accordion.Body className="faq-body">
-                    <div>{
-                        props.answer.map(line => (<p>{line}</p>))
-                    }</div>
+                    {
+                        props.answer.map(line =>
+
+                            <p key={props.answer.indexOf(line)}>
+                                {line}
+                            </p>
+
+                        )
+                    }
                 </Accordion.Body>
 
             </Accordion.Item>
@@ -36,7 +42,7 @@ const FAQ = () => {
         <>
             <HR />
             <Container id="FAQ" className="section-container">
-                <Header heading="Frequently Asked Questions" content={[""]} />
+                <Header heading="Frequently Asked Questions" content={[" "]} />
                 <Accordion className="faq-questions">
                     <div className="faq-container">
                         <FAQItem
@@ -47,12 +53,12 @@ const FAQ = () => {
                         <FAQItem
                             n="1"
                             question="Pre-Sale Mint Cost?"
-                            answer={["0.05 Ξ"]}
+                            answer={["TBD"]}
                         />
                         <FAQItem
                             n="2"
                             question="Public Mint Cost?"
-                            answer={["0.07 Ξ"]}
+                            answer={["TBD"]}
                         />
                         <FAQItem
                             n="3"

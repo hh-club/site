@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, Row, Col, Image } from 'react-bootstrap';
+import { Container, Card, Row, Col } from 'react-bootstrap';
 import Header from './Header';
 import HR from './Divider';
 

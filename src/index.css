@@ -36,10 +36,10 @@ code {
   font-style:italic;
   font-size: 50px;
   color: var(--accent);
-  background: #198754;
-  background: -webkit-linear-gradient(to right, #198754 20%, #C1CF63 100%);
-  background: -moz-linear-gradient(to right, #198754 20%, #C1CF63 100%);
-  background: linear-gradient(to right, #198754 20%, #C1CF63 100%);
+  background: var(--accent);
+  background: -webkit-linear-gradient(to right, var(--accent) 20%, #C1CF63 100%);
+  background: -moz-linear-gradient(to right, var(--accent) 20%, #C1CF63 100%);
+  background: linear-gradient(to right, var(--accent) 20%, #C1CF63 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -52,9 +52,9 @@ code {
   text-transform: uppercase;
   font-style: normal;
   font-size: 45px;
-  /* background: -webkit-linear-gradient(to right, #7EED34 20%, #870D0D 100%);
-  background: -moz-linear-gradient(to right, #7EED34 20%, #870D0D 100%);
-  background: linear-gradient(to right, #7EED34 20%, #870D0D 100%);
+  /* background: -webkit-linear-gradient(to right, var(--accent) 20%, #C1CF63 100%);
+  background: -moz-linear-gradient(to right, var(--accent) 20%, #C1CF63 100%);
+  background: linear-gradient(to right, var(--accent) 20%, #C1CF63 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
 }
